@@ -1,1 +1,4 @@
+# CORROSION CURRENT CALCULATION
 The following project aims to help corrosion researches with the determination of the corrosion current during Closed Polarisation Test.
+The program will read data files of the different tests in a folder with the following structure: Lines x 4 columns, with the 3rd and 4th column being the scan Potential and Measured current, respectively. (Feel free to adapt it to your code)
+It will extract the name of each of the test files with the following structure: data - ref electrode - channel - test number - test type - corrosive media (Feel free to adapt it too)
